@@ -81,7 +81,10 @@ function Dashboard() {
       scheduled_time: time,
       status,
     });
-    if (error) return toast.error(error.message);
+    if (error) {
+      toast.error(error.message);
+      return;
+    }
     invalidate("adherence");
     toast.success(status === "taken" ? "Marked as taken" : "Marked as missed");
   };
