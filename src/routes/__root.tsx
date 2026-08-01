@@ -82,10 +82,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "MediAlert helps you stay on top of medication, check symptoms with transparent rules, and send an emergency SOS with your live location.",
+          "MediAlert keeps you on top of your medication schedule, offers rule-based symptom guidance, and sends an emergency SOS with your live location.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "MediAlert — Medication Reminders, Triage & Emergency SOS" },
+      { name: "twitter:title", content: "MediAlert — Medication Reminders, Triage & Emergency SOS" },
+      { property: "og:description", content: "MediAlert keeps you on top of your medication schedule, offers rule-based symptom guidance, and sends an emergency SOS with your live location." },
+      { name: "twitter:description", content: "MediAlert keeps you on top of your medication schedule, offers rule-based symptom guidance, and sends an emergency SOS with your live location." },
     ],
     links: [
       {

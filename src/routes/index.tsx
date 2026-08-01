@@ -30,11 +30,11 @@ export const Route = createFileRoute("/")({
         content:
           "MediAlert keeps you on top of your medication schedule, offers rule-based symptom guidance, and sends an emergency SOS with your live location.",
       },
-      { property: "og:title", content: "MediAlert — Your health companion" },
+      { property: "og:title", content: "MediAlert — Medication Reminders, Triage & Emergency SOS" },
       {
         property: "og:description",
         content:
-          "Medication reminders, rule-based symptom triage, emergency SOS with live location, and nearby facilities.",
+          "MediAlert keeps you on top of your medication schedule, offers rule-based symptom guidance, and sends an emergency SOS with your live location.",
       },
     ],
   }),
